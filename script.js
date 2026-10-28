@@ -26,10 +26,10 @@ let d = now.getDay();
 let days = ["Sunday", "Monday", "Tuesday", "Wednesday","Thursday", "Friday", "Saturday"];
 // STEP 4: Use the day number as an index to get the day name
 //         from the array.
-
+let day = days[now.getDay()];
 // STEP 5: Display the day name in the element with ID "warmUpDate"
 //         using document.getElementById("warmUpDate").innerHTML
-document.getElementById("warmUpDate").innerHTML = days[i];
+document.getElementById("warmUpDate").innerHTML = day;
 
 // ============================================
 //  PART 1: Current Date Display
