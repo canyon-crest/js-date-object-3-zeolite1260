@@ -94,7 +94,7 @@ document.getElementById("myBtn").addEventListener("click", function(){
         document.getElementById("myBtn").innerHTML = "Start";
     }
     else {
-        tm = serInterval(time, 10);
+        tm = setInterval(time, 10);
         running = true;
         document.getElementById("myBtn").innerHTML = "Stop";
     }
