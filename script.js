@@ -87,7 +87,7 @@ let tm = setInterval(time, 10);
 // STEP 13: Create a variable to track whether the timer is
 //          currently running (let running = true;)
 let running = true;
-document.getElementById("myBtn").addEventListener(function(){
+document.getElementById("myBtn").addEventListener("click", function(){
     if (running) {
         clearInterval(tm);
         running = false;
